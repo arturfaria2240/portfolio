@@ -18,7 +18,7 @@ light.addEventListener("click", () => {
   document.body.classList.toggle("light");
 });
 
-const text = "Arthur Henrique";
+const text = "Artur Henrique";
 const speed = 80; // velocidade da digitação (ms)
 
 let index = 0;
@@ -46,4 +46,5 @@ closeModal.addEventListener("click", () => {
 open.addEventListener("click", () => {
   modal.showModal();
 });
+
 
