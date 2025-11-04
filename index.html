@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <title>Portfólio Arthur Costa</title>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1 id="header-h1">Arthur Costa</h1>
+      <ul>
+        <li id="hamburger">
+          <input type="checkbox" id="hamb-check">
+          <div class="hamb" id="hamb1"></div>
+          <div class="hamb"></div>
+          <div class="hamb" id="hamb3"></div>
+          <div class="ex" id="ex1"></div>
+          <div class="ex" id="ex2"></div>
+          <aside>
+            <ul>
+              <li><a href="#main" class="mob-li">Início</a></li>
+              <li><a href="#about" class="mob-li">Sobre Mim</a></li>
+              <li><a href="#projects" class="mob-li">Projetos</a></li>
+              <li><a href="#skills" class="mob-li">Habilidades</a></li>
+              <li><a href="#contact" class="mob-li">Contato</a></li>
+            </ul>
+          </aside>
+        </li>
+        <li><a href="#main" class="pc-li">Início</a></li>
+        <li><a href="#about" class="pc-li">Sobre Mim</a></li>
+        <li><a href="#projects" class="pc-li">Projetos</a></li>
+        <li><a href="#skills" class="pc-li">Habilidades</a></li>
+        <li><a href="#contact" class="pc-li">Contato</a></li>
+
+        <li>
+          <div id="toggle">
+            <input type="checkbox" id="toggle-check">
+            <div id="bolinha"></div>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+  <section id="main" class="reveal">
+    <div id="main-container">
+      <div id="container1">
+        <img src="hero-img.png" height="720px" alt="">
+      </div>
+      <div id="container2">
+        <h1 id="type"></h1>
+        <h2 id="main-h2">Programador de TI</h2>
+        <p id="main-p">Desenvolvendo soluções criativas e funcionais para a web</p>
+        <div id="btns-container">
+          <a href="#projects" class="btns">Projetos</a>
+          <a href="#contact" class="btns">Contato</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="reveal">
+    <div id="about-container">
+      <div id="about-content1">
+        <h1 id="about-h1">Sobre mim</h1>
+        <p id="about-p">Olá! Sou Artur Costa, estudante de Tecnologia da Informação apaixonado por criar experiências digitais que fazem a diferença.
+          Atualmente, estou focado em desenvolvimento web, explorando tecnologias modernas e buscando sempre aprender algo novo. Meu objetivo é construir aplicações que sejam não apenas funcionais, mas também intuitivas e agradáveis de usar.
+          Quando não estou programando, gosto de explorar novas tecnologias, contribuir para projetos open source e compartilhar conhecimento com a comunidade.</p>
+      </div>
+      <div id="about-content2">
+        <img src="about-img.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="reveal">
+    <h1 id="projects-h1">Projetos</h1>
+    <div id="projects-container">
+      <div class="projects-cards">
+        <h1>Uma aplicação web moderna construída com HTML e CSS.</h1>
+        <p>Site de E-Commerce</p>
+        <a href="https://arturcosta2604.github.io/ecommerceIfood/">
+          <i class="fa-brands fa-github"></i>
+          <p>Código</p>
+        </a>
+      </div>
+      <div class="projects-cards">
+        <h1>Uma aplicação construída com a linguagem C#.</h1>
+        <p>Atividade Avaliativa Método</p>
+        <a href="https://drive.google.com/file/d/1ahnia62tny46HAnWQPD9zfRFaWtLgi9l/view?usp=drive_link">
+          <i class="fa-solid fa-code"></i>
+          <p>Código</p>
+        </a>
+      </div>
+      <div class="projects-cards">
+        <h1>Uma aplicação construída com MySql.</h1>
+        <p>Script E-commerce</p>
+        <a href="https://drive.google.com/file/d/1UTGXUdTeAhRNI0jMthjrcuiwHgojsY0j/view?usp=sharing">
+          <i class="fa-solid fa-database"></i>
+          <p>Código</p>
+        </a>
+      </div>
+      <div class="projects-cards">
+        <h1>Uma aplicação construída com Exel.</h1>
+        <p>Planilhas</p>
+        <a href="https://docs.google.com/spreadsheets/d/1svWdqivXdv7_bClqz1aA9qRNzVVsAwdsweL-NzKGOQc/edit?usp=sharing">
+          <i class="fa-solid fa-table"></i>
+          <p>Código</p>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="reveal">
+    <h1 id="skill-h1">Habilidades</h1>
+    <div id="skill-container">
+      <div class="skill-card">HTML e CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">SQL</div>
+      <div class="skill-card">GitHub</div>
+      <div class="skill-card">C#</div>
+      <div class="skill-card">Excel</div>
+
+    </div>
+  </section>
+  <section id="contact" class="reveal">
+    <h1 id="contact-h1">Contato</h1>
+    <p id="contact-p">Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato!</p>
+    <form action="">
+      <input type="text" id="nome" name="nome" placeholder="Nome">
+      <input type="email" id="email" name="email" placeholder="Email">
+      <input type="text" id="assunto" name="assunto" placeholder="Assunto">
+      <textarea name="menssagem" id="menssagem" placeholder="Menssagem"></textarea>
+      <div id="form-btn"><i class="fa-solid fa-paper-plane"></i>Enviar</div>
+      <dialog id="modal">
+        <h2>Formulário enviado!</h2>
+        <button id="closeModal">OK</button>
+      </dialog>
+    </form>
+  </section>
+  <footer class="reveal">
+    <div>
+      <i class="fa-brands fa-whatsapp"></i>
+      <p>+55 (31)99886-8268</p>
+      <i class="fa-solid fa-envelope"></i>
+      <p>arturfaria246@gmail.com</p>
+    </div>
+    <div>
+      <a href="https://www.instagram.com/arturcosta338/?utm_source=ig_web_button_share_sheet"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://github.com/arturcosta2604"><i class="fa-brands fa-github"></i></a>
+      <a href="https://br.linkedin.com/in/artur-faria-11735525b"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </footer>
+</body>
+
+</html>
